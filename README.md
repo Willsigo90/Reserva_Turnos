@@ -23,18 +23,20 @@ Asegúrate de tener instalados los siguientes componentes antes de continuar:
     "DefaultConnection": "Server=localhost;Database=TuBaseDeDatos;User Id=TuUsuario;Password=TuContraseña;"
   }
 }
-
+```
 ## Ejecución
 
 1. Establecer cómo proyecto de inicio la Api "Reserva_Turnos"
 2. Al ejecutar el proyecto se va a abrir Swagger con un Turnos
 2.1 Cómo request body podemos enviar el siguiente Json:
 
+```json
 {
   "fechaInicio": "19/08/2023",
   "fechaFin": "19/08/2023",
   "idServicio": 1
 }
+```
 
 Esto reservaría turnos para el servicio 1 que según nuestra configuración de Base de datos es el servicio de "Corte" del comercio de "Barberia", y cómo
 respuesta obtendríamos un Json donde se van a ver propiedades cómo fechaTurno, horaInicio, horaFin, nombreServicio y nombreComercio
