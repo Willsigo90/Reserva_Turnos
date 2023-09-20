@@ -13,7 +13,7 @@ Asegúrate de tener instalados los siguientes componentes antes de continuar:
 
 ### Base de Datos
 
-1. En la raiz del repositorio hay un archivo .rar con los scripts de creación de base de datos, objetos e inserts de configuración, favor ejecutarlo en una base de datos Sql Server
+1. En la raiz del repositorio hay un archivo .rar (Reserva_Turnos.rar) con los scripts de creación de base de datos, objetos e inserts de configuración, favor ejecutarlo en una base de datos Sql Server
 
 2. Configura la cadena de conexión en `appsettings.json` o en las variables de entorno según corresponda:
 
